@@ -1,0 +1,37 @@
+/* CSS Document */
+
+#facebook_widget a {display:block; padding:10px; margin-bottom:3px; color:#000; text-decoration:none; font-size:13px; line-height:18px; 
+	text-align:center;
+background: #d4e4ef; /* Old browsers */
+background: -moz-linear-gradient(45deg,  #d4e4ef 0%, #86aecc 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(45deg,  #d4e4ef 0%,#86aecc 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(45deg,  #d4e4ef 0%,#86aecc 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d4e4ef', endColorstr='#86aecc',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+} 
+	
+
+	
+#facebook_widget a:hover {background-color:#000; color:#fff; /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#b5bdc8+0,828c95+36,28343b+100;Grey+Black+3D */
+background: #b5bdc8; /* Old browsers */
+background: -moz-linear-gradient(45deg,  #b5bdc8 0%, #828c95 36%, #28343b 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(45deg,  #b5bdc8 0%,#828c95 36%,#28343b 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(45deg,  #b5bdc8 0%,#828c95 36%,#28343b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b5bdc8', endColorstr='#28343b',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+#facebook_widget a img {float:none ; display:block; margin:0px auto;  -ms-filter: grayscale(1) brightness(110%);
+-webkit-filter: grayscale(1) brightness(110%);
+-moz-filter: grayscale(1) brightness(110%);
+-o-filter: grayscale(1) brightness(110%);
+filter: grayscale(1) brightness(110%);
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease ;
+	 -webkit-transition: all 0.3s ease;
+margin-bottom:10px;}
+#facebook_widget a:hover img {float:none ; display:block; margin:0px auto;  -ms-filter: grayscale(0) brightness(100%);
+-webkit-filter: grayscale(0) brightness(100%);
+-moz-filter: grayscale(0) brightness(100%);
+-o-filter: grayscale(0) brightness(100%);
+filter: grayscale(0) brightness(100%);
+margin-bottom:10px;}
+#facebook_widget a em {font-size:90%; opacity:0.8}

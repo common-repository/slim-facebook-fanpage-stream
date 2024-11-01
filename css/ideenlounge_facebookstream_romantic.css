@@ -1,0 +1,61 @@
+/* CSS Document */
+
+
+#facebook_widget a {display:block;padding:20px; padding-left:5px; padding-right:5px;  color:#4f4045; text-decoration:none; font-size:13px; line-height:18px;	
+	 
+	position:relative} 
+#facebook_widget a:hover {color:#000; text-decoration:underline;}
+#facebook_widget a img {float:right; margin:10px; margin-left:20px; max-width:80px; -webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease; ;
+	border:3px solid white;}
+#facebook_widget a:hover img {max-width:90px; margin:5px; margin-left:15px; }
+#facebook_widget a em {font-size:90%; opacity:0.8}
+
+#facebook_widget a:nth-child(2n) {background-color:#d2c0bd; padding-bottom:10px; padding-top:10px;   }
+
+
+#facebook_widget a:nth-child(2n):before {
+ position: absolute;
+ top: -12px;
+ right: 0px;
+ left: 0px;
+
+ height: 12px;
+ background-size: 16px 32px;
+ background-repeat: repeat-x;
+ background-image: 
+  linear-gradient(45deg, transparent 34%, #d2c0bd 34%, #d2c0bd 66%, transparent 66%), 
+  linear-gradient(315deg, transparent 34%, #d2c0bd 34%, #d2c0bd 66%, transparent 66%);
+ content: "";
+}
+
+
+#facebook_widget a:nth-child(2n):after {
+ position: absolute;
+ bottom: -12px;
+ right: 0px;
+ left: 0px;
+
+ height: 16px;
+ background-size: 16px 32px;
+ background-repeat: repeat-x;
+ background-image: 
+  linear-gradient(45deg, #d2c0bd 34%, transparent 34%, transparent 66%, #d2c0bd 66%), 
+  linear-gradient(315deg, #d2c0bd 34%, transparent 34%, transparent 66%, #d2c0bd 66%);
+ content: "";
+}
+
+#facebook_widget a:last-child:after {
+ height: 0px; 
+}
+
+#facebook_widget a:first-child {padding-top:10px;}
+
+
+#facebook_widget {border: 1px dashed #938a8d; padding:5px; }
+
+
+
+

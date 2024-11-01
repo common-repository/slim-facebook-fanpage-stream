@@ -1,0 +1,11 @@
+/* CSS Document */
+
+#facebook_widget a {display:block; padding:10px; margin-bottom:3px; background-color:#efefef; color:#000; text-decoration:none; font-size:13px; line-height:18px; -webkit-transition: all 0.3s ease;position: relative;
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease } 
+	
+
+#facebook_widget a:hover {background-color:#000; color:#efefef;}
+#facebook_widget a img {float:right; margin-left:10px; max-width:80px;}
+#facebook_widget a em {font-size:90%; opacity:0.8}

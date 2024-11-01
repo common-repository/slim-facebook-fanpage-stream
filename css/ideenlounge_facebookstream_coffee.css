@@ -1,0 +1,14 @@
+/* CSS Document */
+
+
+#facebook_widget a {display:block;padding:20px; padding-left:5px; padding-right:5px; border-bottom:3px solid #77aab8; background-color:#fff; color:#6e5745; text-decoration:none; font-size:13px; line-height:18px;	-webkit-transition: all 0.7s ease;
+	-moz-transition: all 0.7s ease;
+	-o-transition: all 0.7s ease;
+	transition: all 0.7s ease;  } 
+#facebook_widget a:hover {background-color:#e6d9c9; color:#000;}
+#facebook_widget a img {float:right; margin-left:10px; max-width:80px; -webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease; margin:5px;}
+#facebook_widget a:hover img {max-width:90px; margin:0px;}
+#facebook_widget a em {font-size:90%; opacity:0.8}
